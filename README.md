@@ -1,5 +1,11 @@
-# Live-Currency-converter-using-C
+# **Live Currency converter using C**
 
 ## Objective
 
 To create a program that uses the live value of the currency exchange rates in the market and gives out the exchange value output based on the input of currency chosen and the value given.
+
+## Problems faced
+
+1. C is an old language, so it did not have a web scraping option.
+2. Creating a GUI-based application was hard to accomplish within the given time limit and in our experience.
+
