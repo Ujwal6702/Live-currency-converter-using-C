@@ -1,4 +1,4 @@
-# **Live Currency converter using C**
+# **Live currency converter using C**
 
 ## Objective
 
