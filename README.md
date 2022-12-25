@@ -13,3 +13,14 @@ To create a program that uses the live value of the currency exchange rates in t
 
 1. We used python as a supporter code which scrapes the data from the Internet and stores the value in a text file which is later ready by the C program, and the desired output is then further presented.
 2. For the GUI part, we just used command line codes to change the color and the way it looks.
+
+## Summary
+
+### Extracting data using beautifulsoup module
+
+'''python
+
+source=rs.get('https://www.x-rates.com/table/?from=USD&amount=1')
+content=bs(source.content, 'html.parser')
+
+'''
