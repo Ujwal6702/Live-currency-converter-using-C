@@ -24,3 +24,18 @@ source=rs.get('https://www.x-rates.com/table/?from=USD&amount=1')
 content=bs(source.content, 'html.parser')
 
 ```
+### Writing extracted content into a text file
+
+```python
+
+file=open('countries.txt', 'w')
+for i in range(len(countries)):
+    file.write(countries[i]+'\n')
+file.close()
+file1=open("rates.txt", "w")
+for i in range(len(countries)):
+    file1.write(str(currency_rates[i])+'\n')
+file1.close()
+
+```
+
