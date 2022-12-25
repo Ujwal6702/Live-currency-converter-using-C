@@ -18,9 +18,9 @@ To create a program that uses the live value of the currency exchange rates in t
 
 ### Extracting data using beautifulsoup module
 
-'''python
+```python
 
 source=rs.get('https://www.x-rates.com/table/?from=USD&amount=1')
 content=bs(source.content, 'html.parser')
 
-'''
+```
