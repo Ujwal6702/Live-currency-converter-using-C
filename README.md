@@ -4,6 +4,19 @@
 
 To create a program that uses the live value of the currency exchange rates in the market and gives out the exchange value output based on the input of currency chosen and the value given.
 
+## Procedure to follow
+
+Method 1:
+
+    1. Download both the file
+    2. Place them in the same location in your windows system.
+    3. Run and execute the C file.
+
+Method 2:
+    
+    1. clone the repository.
+    2. Run and execute the C file.
+
 ## Problems faced
 
 1. C is an old language, so it did not have a web scraping option.
